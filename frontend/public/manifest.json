@@ -1,0 +1,13 @@
+{
+	"name": "Groupomania",
+	"description": "Message interne pour les employés",
+	"icons": [
+		{
+			"src": "icon.ico",
+			"sizes": "16x16",
+			"type": "image/svg+xml"
+		}
+	],
+	"start_url": ".",
+	"display": "standalone"
+}

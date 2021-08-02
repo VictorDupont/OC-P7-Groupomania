@@ -1,0 +1,40 @@
+.sidebar-nav {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 320px;
+  margin: 0 auto;
+
+  &__link {
+    color: rgba(0, 0, 0, 0.6);
+    width: 47%;
+    padding: 0.2em 0.5em;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    margin-bottom: 0.8em;
+
+    &:hover,
+    &.active {
+      text-decoration: none;
+      color: #000;
+      background-color: #FFF;
+      border: 1px solid #999;
+    }
+  }
+
+  &__anchor {
+    margin-left: 1em;
+  }
+
+  @media all and (min-width: 920px) {
+    min-width: 170px;
+    width: 17%;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0;
+
+    &__link {
+      width: 100%;
+    }
+  }
+}

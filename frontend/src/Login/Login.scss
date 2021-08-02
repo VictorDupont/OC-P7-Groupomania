@@ -1,0 +1,31 @@
+.login {
+	justify-self: center;
+	align-self: center;
+	min-width: 320px;
+	max-width: 450px;
+	margin: 0 auto;
+
+	&-form,
+	&-register-modal {
+		border: 1px solid #2f3336;
+		border-radius: 5px;
+		background-color: #141414;
+	}
+
+	&-form {
+		padding: 1em;
+
+		&__title {
+			margin: 0 0 0.7em;
+			font-size: 24px;
+			text-align: center;
+			text-transform: uppercase;
+		}
+	}
+
+	&-register-modal {
+		text-align: center;
+		margin-top: 1em;
+		padding: 0.5em 1em;
+	}
+}

@@ -1,0 +1,62 @@
+.register-form {
+	&__label,
+	&__input,
+	&__submit {
+		width: 100%;
+	}
+
+	&__title {
+		margin-bottom: 0.5em;
+	}
+
+	&__label {
+		display: inline-block;
+		margin-bottom: 0.2em;
+		margin-top: 1em;
+	}
+
+	&__input {
+		display: inline-block;
+		font-size: 16px;
+		padding: 0.4em 0.5em;
+		border: 1px solid rgba(0, 0, 0, 0.4);
+		border-radius: 3px;
+	}
+
+	&__submit {
+		margin-top: 1em;
+		font-size: 20px;
+		color: #fff;
+		background-color: #202020;
+		border: 1px solid transparent;
+		transition: 0.3s;
+		cursor: pointer;
+		padding: 0.3em 0;
+
+		&:hover {
+			color: #dadada;
+			background-color: transparent;
+			border: 1px solid #202020;
+		}
+	}
+
+	&__legal-requirements {
+		color: #707070;
+		font-size: 12px;
+		text-align: center;
+	}
+
+	&__errors {
+		text-align: center;
+		font-weight: bold;
+		padding: 1em 0.5em;
+		background-color: #ff4444;
+		color: #ffffff;
+		margin-bottom: 1em;
+	}
+
+	&__error {
+		font-size: 13px;
+		color: #ff4444;
+	}
+}

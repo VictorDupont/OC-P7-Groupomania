@@ -1,0 +1,40 @@
+.comment {
+	margin-bottom: 1.5em;
+
+	&__body {
+		background-color: #202020;
+		padding: 0.7em 0.6em;
+		border-radius: 5px;
+		color: #fff;
+	}
+
+	&__message {
+		margin: 0;
+		font-size: 0.95em;
+	}
+
+	&__footer {
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	&__owner {
+		font-size: 0.8em;
+		margin: 0;
+	}
+
+	&__delete {
+		display: inline-block;
+		padding: 0.3em;
+		border: none;
+		background: none;
+		color: #cc0000;
+		cursor: pointer;
+
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}
