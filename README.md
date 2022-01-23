@@ -14,5 +14,5 @@
 
 # Base de données
 
--   Utiliser une interface pour plus de facilité
+-   Utiliser une interface comme PHPmyadmin pour plus de facilité
 -   Pour mettre un compte en admin, mettre ADMIN dans la colonne role dans la base de données
