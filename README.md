@@ -1,4 +1,6 @@
-# Groupomania
+# Groupomania - Réseau social
+
+![brave_gW6nhRJYbQ](https://user-images.githubusercontent.com/76693227/150682288-e63a5940-d280-463e-b187-64d366957e1b.png)
 
 # Frontend
 
